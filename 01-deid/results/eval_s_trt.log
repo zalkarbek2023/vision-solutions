@@ -1,0 +1,20 @@
+Loading yolo26s-text.engine for TensorRT inference...
+[11/14/2026-19:24:30] [TRT] [I] Loaded engine size: 20 MiB
+[11/14/2026-19:24:30] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +116, now: CPU 0, GPU 134 (MiB)
+
+yolo26s-text_1280: 1080 frames, 22440 words, 7.1 ms/frame median on 0, total 79 s
+words erased, % (rows: conf, columns: poly | poly+8 | rect 0.5/0.15 | rect 1.0/0.25)
+  conf 0.05:  96.24   99.44   99.77   99.88
+  conf 0.1 :  95.71   99.26   99.68   99.81
+  conf 0.25:  95.20   98.92   99.47   99.63
+  conf 0.5 :  94.19   97.72   98.24   98.44
+tissue erased by mistake, % of the picture
+  conf 0.05:  0.087   0.091   0.091   0.090
+  conf 0.1 :  0.080   0.083   0.083   0.082
+  conf 0.25:  0.073   0.075   0.075   0.074
+  conf 0.5 :  0.064   0.065   0.065   0.064
+picture under the mask in total, %
+  conf 0.05:  1.161   2.005   1.767   2.176
+  conf 0.1 :  1.152   1.993   1.756   2.165
+  conf 0.25:  1.137   1.974   1.738   2.146
+  conf 0.5 :  1.096   1.908   1.681   2.082

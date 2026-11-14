@@ -1,0 +1,24 @@
+Loading yolo26n-text.engine for TensorRT inference...
+[11/14/2026-19:30:11] [TRT] [I] Loaded engine size: 9 MiB
+[11/14/2026-19:30:11] [TRT] [I] [MS] Running engine with multi stream info
+[11/14/2026-19:30:11] [TRT] [I] [MS] Number of aux streams is 5
+[11/14/2026-19:30:11] [TRT] [I] [MS] Number of total worker streams is 6
+[11/14/2026-19:30:11] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[11/14/2026-19:30:11] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +95, now: CPU 0, GPU 102 (MiB)
+
+yolo26n-text_1280: 1080 frames, 22440 words, 5.4 ms/frame median on 0, total 73 s
+words erased, % (rows: conf, columns: poly | poly+8 | rect 0.5/0.15 | rect 1.0/0.25)
+  conf 0.05:  95.14   99.53   99.73   99.86
+  conf 0.1 :  94.57   99.30   99.61   99.76
+  conf 0.25:  93.45   98.84   99.28   99.46
+  conf 0.5 :  90.94   96.05   96.45   96.69
+tissue erased by mistake, % of the picture
+  conf 0.05:  0.131   0.156   0.216   0.275
+  conf 0.1 :  0.112   0.125   0.152   0.175
+  conf 0.25:  0.095   0.101   0.107   0.112
+  conf 0.5 :  0.084   0.088   0.091   0.091
+picture under the mask in total, %
+  conf 0.05:  1.229   2.092   1.944   2.422
+  conf 0.1 :  1.205   2.055   1.873   2.315
+  conf 0.25:  1.179   2.018   1.816   2.238
+  conf 0.5 :  1.095   1.886   1.696   2.107

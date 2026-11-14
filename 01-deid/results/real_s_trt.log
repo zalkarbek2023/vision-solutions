@@ -1,0 +1,10 @@
+c5_rectum: 1498 frames, 29.97 fps, 930x720, disk 92.2 % of the picture
+text regions (x, y, w, h): [[0, 0, 83, 40], [835, 27, 95, 43], [877, 74, 48, 23]]
+Loading yolo26s-text.engine for TensorRT inference...
+[11/14/2026-19:35:12] [TRT] [I] Loaded engine size: 20 MiB
+[11/14/2026-19:35:12] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +116, now: CPU 0, GPU 134 (MiB)
+memory 0: {"frames": 1498, "region_frames": 3282, "region_frames_erased": 2796, "frames_with_a_leak": 486, "per_region_erased_%": [100.0, 67.56, 100.0], "text_pixels_erased_%": 99.3, "tissue_in_mask_%": 0.058, "ms_decode": 0.45, "ms_erase": 8.43, "ms_encode": 3.0, "fps_end_to_end": 83.8}
+Loading yolo26s-text.engine for TensorRT inference...
+[11/14/2026-19:35:37] [TRT] [I] Loaded engine size: 20 MiB
+[11/14/2026-19:35:37] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +116, now: CPU 0, GPU 134 (MiB)
+memory 30: {"frames": 1498, "region_frames": 3282, "region_frames_erased": 3038, "frames_with_a_leak": 244, "per_region_erased_%": [100.0, 83.71, 100.0], "text_pixels_erased_%": 99.65, "tissue_in_mask_%": 0.06, "ms_decode": 0.43, "ms_erase": 8.94, "ms_encode": 2.99, "fps_end_to_end": 80.2}
